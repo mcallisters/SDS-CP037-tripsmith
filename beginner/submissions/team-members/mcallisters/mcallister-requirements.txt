@@ -5,6 +5,7 @@ requests
 # Imports type hinting tools to define structured data types (e.g., dictionaries, lists, optional values) for better code clarity and IDE support
 typing 
 
+List, Optional
 # Provides classes for manipulating dates and times, useful for timestamps and scheduling
 datetime  
 # Offers an object-oriented approach to handle filesystem paths, making path operations platform-independent
@@ -24,6 +25,4 @@ ChatPromptTemplate
 langchain_core.pydantic_v1 
 
 BaseModel, Field
-typing 
 
-List, Optional
